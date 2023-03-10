@@ -1,0 +1,113 @@
+*{  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+body {
+  background: #fafafa;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container_wrap {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+.container {
+  background-color: #fff;
+  width: 350px;
+  height: 380px;
+  border: 1px solid rgb(219, 219, 219);
+  margin-bottom: 0.6rem;
+}
+
+#logo {
+  display: block;  /*이미지는 인라인요소라 block요소로 바꿔야함(margin안먹힘)*/
+  width: 14rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+input {
+  display: block;
+  width: 260px;
+  height: 33px;
+  margin: 0 40px 6px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 1px;
+  box-sizing: border-box;
+  text-indent: 8px;
+}
+
+button {
+  margin: 8px 40px;
+  width: 260px;
+  height: 30px;
+  background-color: rgb(0, 149, 246);
+  opacity: .7;
+  border: none;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+
+
+.or_line{
+  display: flex;/*가로로*/
+  align-items: center;
+  margin: 1rem auto 0;
+  justify-content: center;
+}
+
+.line{
+  border-bottom: 1px solid rgb(219, 219, 219);
+  width: 6.4rem;
+}
+
+.or_text {
+  margin: 0 10px;
+  font-weight: bold;
+  color: rgb(142, 142, 142);
+}
+
+.forgot_pw {
+  display: block;
+  margin-top: 1rem;
+  font-size: small;;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 55, 107);
+  cursor: pointer;
+}
+
+.bottom_container {
+  background-color: #fff;
+  width: 350px;
+  height: 75px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.account {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.sign_up {
+  margin: 0;
+  color:rgb(0, 149, 246);
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
