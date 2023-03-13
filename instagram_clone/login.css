@@ -37,7 +37,7 @@ input {
   width: 260px;
   height: 33px;
   margin: 0 40px 6px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(250, 250, 250);
   border: 1px solid rgb(219, 219, 219);
   border-radius: 1px;
   box-sizing: border-box;
@@ -82,9 +82,8 @@ button {
 .forgot_pw {
   display: block;
   margin-top: 1rem;
-  font-size: small;;
+  font-size: small;
   text-align: center;
-  text-decoration: none;
   color: rgb(0, 55, 107);
   cursor: pointer;
 }
@@ -108,6 +107,73 @@ button {
   margin: 0;
   color:rgb(0, 149, 246);
   font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* modal forgot_login css입니다. */
+.modal__layout {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forgot_container {
+  background-color: #fff;
+  width: 350px;
+  height: 430px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.bottom_forgot_container {
+  background-color: rgb(250, 250, 250);
+  width: 350px;
+  height: 45px;
+  border: 1px solid rgb(219, 219, 219);
+  box-sizing: border-box;
+}
+
+#lock_icon {
+  display: block;  /*이미지는 인라인요소라 block요소로 바꿔야함(margin안먹힘)*/
+  width: 80px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: -6px 0 6px;
+}
+
+.link_page {
+  margin: 0 20px 15px;
+  text-align: center;
+  display: block;
+  color: rgb(142, 142, 142);
+  font-size: 13px;
+}
+
+.back_main {
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+}
+
+.new_account {
+  display: block;
+  margin: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
   text-decoration: none;
   cursor: pointer;
 }
